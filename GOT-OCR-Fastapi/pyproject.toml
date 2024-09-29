@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "got-ocr-fastapi"
+version = "0.1.0"
+description = ""
+authors = ["jan-my31"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.10.14"
+modelscope = "^1.18.1"
+fastapi = "^0.115.0"
+pillow = "^10.4.0"
+loguru = "^0.7.2"
+requests = "^2.32.3"
+uvicorn = "^0.31.0"
+transformers = "^4.45.1"
+tiktoken = "^0.7.0"
+torch = "^2.4.1"
+verovio = "^4.3.1"
+torchvision = "^0.19.1"
+accelerate = "^0.34.2"
+python-multipart = "^0.0.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
