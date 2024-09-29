@@ -206,6 +206,9 @@ More details can be seen in [ms-swift](https://github.com/modelscope/ms-swift/is
 python3 GOT/eval/evaluate_GOT.py --model-name /GOT_weights/ --gtfile_path xxxx.json --image_path  /image/path/ --out_path /data/eval_results/GOT_mathpix_test/ --num-chunks 8 --datatype OCR
 ```
 
+
+
+
 ## Contact
 If you are interested in this work or have questions about the code or the paper, please join our communication [Wechat](https://github.com/Ucas-HaoranWei/GOT-OCR2.0/blob/main/assets/wechat.jpg) group.
 
